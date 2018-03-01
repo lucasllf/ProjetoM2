@@ -67,7 +67,7 @@ if ($result -> num_rows > 0) {
 ?>
 
 
-  <div align="center" style="width: 19rem;">
+  <div align="center" style="width: auto; margin: 50px;">
     <img class="card-img-top col-md4" src="<?php echo $row['foto']; ?>" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title"><?php echo $row['nome']; ?></h5>

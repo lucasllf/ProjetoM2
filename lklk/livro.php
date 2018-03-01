@@ -17,7 +17,7 @@ if ($result -> num_rows > 0) {
 
 ?>
 <div align="row">
-  <div class="container" style="width: auto; margin: 70px;">
+  <div class="container" style="width: auto; margin: 40px;">
     <img class="card-img-top col-md4" src="<?php echo $row['foto']; ?>" alt="Card image cap">
     <div class="card-body">
       <div align="center">

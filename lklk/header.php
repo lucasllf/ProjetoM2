@@ -121,7 +121,8 @@ session_start();
   <a href="eletronico.php" type="button" class="btn btn-warning">Eletrônicos</a>
   <a href="informatica.php" type="button" class="btn btn-warning">Informatica</a>
   <a href="celular.php" type="button" class="btn btn-warning">Celulares</a>
-  <a href="livro.php" type="button" class="btn btn-warning">Livros</a>
+  <a href="livro.php" type="button" class="btn btn-warning">Livros</a> 
+  <a href="roupa.php" type="button" class="btn btn-warning">Roupas</a>
 
       
                         </div>

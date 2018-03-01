@@ -13,7 +13,7 @@ $sql = "INSERT INTO produto (nome, preco, categoria, foto) VALUES ('$nome', '$pr
 
 if($conn->query($sql) === TRUE){
 	echo '<script>alert("produto cadastrado com sucesso!");</script>';	
-	echo "<script>window.location = 'paginainicial.php';</script>";
+	echo "<script>window.location = 'inserir.php';</script>";
 }
 else{
 	echo "Error: ".$sql."<br>".$conn->error;

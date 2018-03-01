@@ -20,6 +20,6 @@ if ($result -> num_rows > 0)
 else
 {
 	echo '<script>alert("Usuario ou senha invalido!");</script>';	
-	echo "<script>window.location = 'paginainicial.php';</script>";
+	echo "<script>window.location = 'loginusuario.php';</script>";
 }
 ?>

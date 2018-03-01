@@ -6,7 +6,7 @@ include "header.php";
 <?php 
 
 
- $sql = "SELECT * FROM produto WHERE categoria LIKE 'informatica'";
+ $sql = "SELECT * FROM produto WHERE categoria LIKE 'roupa'";
 
 $result = $conn -> query($sql);
 
