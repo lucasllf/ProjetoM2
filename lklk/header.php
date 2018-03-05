@@ -106,9 +106,9 @@ session_start();
          <?php
          }
           ?>
-
+              <div style="float:left;width:20px;"><a href="carrinho.php"><img style="margin:0;padding:0;float:left;" src="imagens/icone3.png" width="50" height="50" class="" alt=""></a>
    </nav>    
-      </nav>
+         </nav>
 
     </header>
 

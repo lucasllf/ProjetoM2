@@ -1,6 +1,7 @@
 <?php 
 	include "header.php";
 	include "car.php";
+	include "product.php";
 	
 	$pdoConnection = require_once "connection.php";
 	if(isset($_GET['acao']) && in_array($_GET['acao'], array('add', 'del', 'up'))) {
@@ -62,7 +63,7 @@
 							<input type="text" name="prod[<?php echo $result['id']?>]" value="<?php echo $result['quantity']?>" size="1" />
 														
 							</td>
-						<td>R$<?php echo number_format($result['price'], 2, ',', '.')?></td>
+						<td>R$<?php echo $result['price']?></td>
 						<td>R$<?php echo number_format($result['subtotal'], 2, ',', '.')?></td>
 						<td><a href="carrinho.php?acao=del&id=<?php echo $result['id']?>" class="btn btn-danger">Remover</a></td>
 						
@@ -77,8 +78,8 @@
 				
 			</table>
 
-			<a class="btn btn-info" href="index.php">Continuar Comprando</a>
-			<button class="btn btn-primary" type="submit">Atualizar Carrinho</button>
+			<a class="btn btn-warning" href="paginainicial.php">Continuar Comprando</a>
+			<button class="btn btn-warning" type="submit">Atualizar Carrinho</button>
 
 			</form>
 	<?php endif?>

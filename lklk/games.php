@@ -1,5 +1,6 @@
 <?php 
-include "header.php"
+include "header.php";
+include "car.php";
  ?>
 <div class="container">
 <div class="row">
@@ -24,7 +25,7 @@ if ($result -> num_rows > 0) {
       <h5 class="card-title"><?php echo $row['nome']; ?></h5>
        <h5 class="card-title"><?php echo $row['preco']; ?></h5>
       <p class="card-text"></p>
-      <a href="index.php?id=<?php echo $row['id']; ?>" class="btn btn-warning">Mais Informaçoes</a>
+       <a href="carrinho.php?acao=add&id=<?php echo $row['id']?>" class="btn btn-warning">Add Carrinho</a>
       </div>
     </div>
   </div>

@@ -67,13 +67,13 @@ if ($result -> num_rows > 0) {
 ?>
 
 
-  <div align="center" style="width: auto; margin: 50px;">
+  <div align="center" style="width: 300px; margin: 35px;">
     <img class="card-img-top col-md4" src="<?php echo $row['foto']; ?>" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title"><?php echo $row['nome']; ?></h5>
        <h5 class="card-title"><?php echo "R$: ".$row['preco']; ?></h5>
       <p class="card-text"></p>
-      <a href="index.php?id=<?php echo $row['id']; ?>" class="btn btn-warning">Mais Informaçoes</a>
+      <a href="carrinho.php?acao=add&id=<?php echo $row['id']?>" class="btn btn-warning">Add Carrinho</a>
     </div>
   </div>
 
