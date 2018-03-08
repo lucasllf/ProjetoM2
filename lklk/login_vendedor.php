@@ -1,34 +1,32 @@
 <?php 
-include "header.php" 
-?>      
+include "header.php";
+ ?>
       
 
   <br />
 
     <div class="container">
     <section>
-    <h1>Cadastrar Produtos</h1><hr />
-    <form method="POST" action="insert.php">
-    <div class="form-group">
-      <label for="nome">Nome: </label>
-      <input type="text" name="nome" class="form-control form-control-lg" />
-
-      <label for="preco">Preço : </label>
-      <input type="text" name="preco" class="form-control form-control-lg" />
-
-      <label for="categoria">Categoria : </label>
-      <input type="text" name="categoria" class="form-control form-control-lg" />
-
-      <label for="foto">Foto : </label>
-      <input type="text" name="foto" class="form-control form-control-lg" />
-
-     
-    <br />
-        <button type="submit" class="btn btn-warning btn-lg">Cadastrar</button>
+      <div align="center">
+    <h1>Pagina do vendedor! <p></p><p>Efetue seu login:</p> </h1><hr />
     </div>
+    <form method="POST" action="login_vendedor1.php">
+    <div class="form-group">
+      
+      <label for="email">Email : </label>
+      <input type="text" name="email" class="form-control form-control-lg" />
 
+      <label for="senha">Senha : </label>
+      <input type="password" name="senha" class="form-control form-control-lg" />
+
+    <br />
+        <button type="submit" class="btn btn-warning btn-lg">Login</button>
+    </div>
     </form>
+    <P class="text-center text-danger"> 
+       
     </section>
+    <a href="cadastro_vendedor.php"><button type="submit" class="btn btn-warning btn-lg">Cadastro</button></a>
   </div>
 
 

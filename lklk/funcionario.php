@@ -69,18 +69,11 @@ session_start();
 
       <div class="container" style="margin-left: 20px; margin-top: 0px">   
 
-           <div style="margin-right: 50px;width:300px;"><a href="paginainicial.php"><img style="margin:0;padding:0;float:left;" src="imagens/icone1.png" width="50" height="50" class="" alt=""></a>
+           <div style="margin-right: 50px;width:300px;"><a href=""><img style="margin:0;padding:0;float:left;" src="imagens/icone1.png" width="50" height="50" class="" alt=""></a>
             
                <h3 style="margin-right: 55px;">Lojas Lisboa</h3></div>
                  
-          <div style="margin-right: 150px; margin-top: 0px;">
-            <form class="form-inline my-0 my-6" align="" action="busca.php" method="POST">
-                          <input class="form-control mr-sm-2" name="pesquisar" type="search" placeholder="Digite sua pesquisa" aria-label="Search">
-                          <button class="btn btn-warning my-2 my-sm-2" type="submit">Pesquisar</button>         
-
-            </form>  
-          </div>
-
+          
 
 
          <a class="navbar-brand" href="">
@@ -108,29 +101,41 @@ session_start();
          <?php
          }
           ?>
-              <div style="margin-left: 50px; width:20px;"><a href="carrinho.php"><img style="margin:0;padding:0;float:left;" src="imagens/icone3.png" width="50" height="50" class="" alt=""></a>
+             <a/>
    </nav>    
          </nav>
 
     </header>
 
-  <hr>
-    <div class="container">
-      <div align="center" style="">
-        
-  <div class="btn-group" role="group" aria-label="Basic example">
-  <a href="games.php" type="button" class="btn btn-warning">Games</a>
-  <a href="eletronico.php" type="button" class="btn btn-warning">Eletrônicos</a>
-  <a href="informatica.php" type="button" class="btn btn-warning">Informatica</a>
-  <a href="celular.php" type="button" class="btn btn-warning">Celulares</a>
-  <a href="livro.php" type="button" class="btn btn-warning">Livros</a> 
-  <a href="roupa.php" type="button" class="btn btn-warning">Roupas</a>
 
-      
-                        </div>
-</div>
-    <hr/>
-      </div>
-</html>
+    
+
   
 
+<div>
+
+<h1 align="center">Pagina do funcionário</h1>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<div class="container">
+	<div align="center">
+	<a href="dele.php">
+		<button type="submit" class="btn btn-warning btn-lg">Excluir Produto</button>
+	</a>
+	<a href="inserir.php">
+		<button type="submit" class="btn btn-warning btn-lg">Cadastrar Produto</button>
+	</a>
+	<a href="atualiza.php">
+		<button type="submit" class="btn btn-warning btn-lg">Alterar Produto</button>
+	</a>
+	
+	</div>
+</div>
+</html>

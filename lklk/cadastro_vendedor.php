@@ -1,5 +1,5 @@
 <?php 
-include "header.php" 
+include "header.php";
 ?>      
       
 
@@ -7,20 +7,19 @@ include "header.php"
 
     <div class="container">
     <section>
-    <h1>Cadastrar Produtos</h1><hr />
-    <form method="POST" action="insert.php">
+    <h1>Cadastrar Vendedor</h1><hr />
+    <form method="POST" action="cadastro_vendedor1.php">
     <div class="form-group">
       <label for="nome">Nome: </label>
       <input type="text" name="nome" class="form-control form-control-lg" />
 
-      <label for="preco">Preço : </label>
-      <input type="text" name="preco" class="form-control form-control-lg" />
+      <label for="email">Email : </label>
+      <input type="text" name="email" class="form-control form-control-lg" />
 
-      <label for="categoria">Categoria : </label>
-      <input type="text" name="categoria" class="form-control form-control-lg" />
+      <label for="senha">Senha : </label>
+      <input type="password" name="senha" class="form-control form-control-lg" />
 
-      <label for="foto">Foto : </label>
-      <input type="text" name="foto" class="form-control form-control-lg" />
+     
 
      
     <br />
@@ -40,4 +39,3 @@ include "header.php"
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
   </body>
 </html>
-

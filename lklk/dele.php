@@ -1,4 +1,4 @@
-<?php 
+<?php
 include "header.php" 
 ?>      
       
@@ -7,24 +7,14 @@ include "header.php"
 
     <div class="container">
     <section>
-    <h1>Cadastrar Produtos</h1><hr />
-    <form method="POST" action="insert.php">
+    <h1>Deletar Produto</h1><hr />
+    <form method="POST" action="Delete.php">
     <div class="form-group">
-      <label for="nome">Nome: </label>
-      <input type="text" name="nome" class="form-control form-control-lg" />
-
-      <label for="preco">Preço : </label>
-      <input type="text" name="preco" class="form-control form-control-lg" />
-
-      <label for="categoria">Categoria : </label>
-      <input type="text" name="categoria" class="form-control form-control-lg" />
-
-      <label for="foto">Foto : </label>
-      <input type="text" name="foto" class="form-control form-control-lg" />
-
-     
+      <label for="id">ID: </label>
+      <input type="text" name="id" class="form-control form-control-lg" />
+          
     <br />
-        <button type="submit" class="btn btn-warning btn-lg">Cadastrar</button>
+        <button type="submit" class="btn btn-warning btn-lg">Deletar</button>
     </div>
 
     </form>
@@ -40,4 +30,3 @@ include "header.php"
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
   </body>
 </html>
-
