@@ -39,7 +39,7 @@ function getContentCart($pdo) {
 							  'name' => $product['nome'],
 							  'price' => $product['preco'],
 							  'quantity' => $cart[$product['id']],
-							  'subtotal' => $cart[$product['id']] * $product['preco']
+							  'subtotal' => $cart[$product['id']] * $product['preco'] * 1000
 						);
 		}
 	}

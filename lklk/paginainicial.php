@@ -71,6 +71,7 @@ if ($result -> num_rows > 0) {
     <img class="card-img-top col-md4" src="<?php echo $row['foto']; ?>" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title"><?php echo $row['nome']; ?></h5>
+      <h5 class="card-title"><?php echo $row['descricao']; ?></h5>
        <h5 class="card-title"><?php echo "R$: ".$row['preco']; ?></h5>
       <p class="card-text"></p>
       <a href="carrinho.php?acao=add&id=<?php echo $row['id']?>" class="btn btn-warning">Add Carrinho</a>

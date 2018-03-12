@@ -17,20 +17,19 @@ if ($result -> num_rows > 0) {
     
 
 ?>
-<div align="row">
-  <div class="container" style="width: auto; margin: 40px;">
-    <img class="card-img-top col-md4" src="<?php echo $row['foto']; ?>" alt="Card image cap">
+ <div class="col-md-4" style="width: 20rem;">
+    <img class="card-img-top " src="<?php echo $row['foto']; ?>" alt="Card image cap">
     <div class="card-body">
-      <div align="center">
       <h5 class="card-title"><?php echo $row['nome']; ?></h5>
+      <h5 class="card-title"><?php echo $row['descricao']; ?></h5>
        <h5 class="card-title"><?php echo $row['preco']; ?></h5>
       <p class="card-text"></p>
-      <a href="carrinho.php?acao=add&id=<?php echo $row['id']?>" class="btn btn-warning">Add Carrinho</a>
-      </div>
+       <a href="carrinho.php?acao=add&id=<?php echo $row['id']?>" class="btn btn-warning">Add Carrinho</a>
     </div>
   </div>
-  </div>
-<?php   
+  <?php   
  }
 }
  ?>
+   </div>
+ </div>

@@ -96,7 +96,7 @@ session_start();
 
           <div class="row">
             <div class="login" style="margin: 10px 10px">
-              <h5>Faça</h5>
+              <h5 style="color: #ffd300; ">Faça</h5>
               
             <a href="loginusuario.php" class="h5">Login </a>
             
